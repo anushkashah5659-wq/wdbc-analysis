@@ -1,0 +1,31 @@
+feature	median_benign	median_malignant	effect_size_rank_biserial	p_value	q_value_BH	p_bonferroni	significant_uncorrected	significant_BH_FDR5	significant_bonferroni
+worst perimeter	86.92	138	0.9509	2.583e-80	7.749e-79	7.749e-79	True	True	True
+worst radius	13.35	20.59	0.9409	1.136e-78	1.703e-77	3.407e-77	True	True	True
+worst area	547.4	1303	0.9397	1.803e-78	1.803e-77	5.41e-77	True	True	True
+worst concave points	0.07431	0.182	0.9334	1.864e-77	1.398e-76	5.592e-76	True	True	True
+mean concave points	0.02344	0.08628	0.9289	1.006e-76	6.038e-76	3.019e-75	True	True	True
+mean perimeter	78.18	114.2	0.8938	3.554e-71	1.777e-70	1.066e-69	True	True	True
+mean area	458.4	932	0.8766	1.54e-68	6.599e-68	4.619e-67	True	True	True
+mean concavity	0.03709	0.1513	0.8757	2.165e-68	8.117e-68	6.494e-67	True	True	True
+mean radius	12.2	17.33	0.875	2.693e-68	8.976e-68	8.079e-67	True	True	True
+area error	19.63	58.45	0.8528	5.768e-65	1.73e-64	1.73e-63	True	True	True
+worst concavity	0.1412	0.4049	0.8427	1.762e-63	4.805e-63	5.285e-62	True	True	True
+perimeter error	1.851	3.679	0.7528	5.099e-51	1.275e-50	1.53e-49	True	True	True
+radius error	0.2575	0.5472	0.7367	6.217e-49	1.435e-48	1.865e-47	True	True	True
+mean compactness	0.07529	0.1323	0.7276	8.952e-48	1.918e-47	2.686e-46	True	True	True
+worst compactness	0.1698	0.3564	0.7246	2.116e-47	4.231e-47	6.347e-46	True	True	True
+concave points error	0.009061	0.01421	0.5836	2.371e-31	4.445e-31	7.113e-30	True	True	True
+worst texture	22.82	28.95	0.5693	6.518e-30	1.15e-29	1.955e-28	True	True	True
+concavity error	0.0184	0.03713	0.5616	3.676e-29	6.126e-29	1.103e-27	True	True	True
+mean texture	17.39	21.46	0.5516	3.429e-28	5.414e-28	1.029e-26	True	True	True
+worst smoothness	0.1254	0.1434	0.5081	3.638e-24	5.457e-24	1.091e-22	True	True	True
+worst symmetry	0.2687	0.3103	0.4739	3.151e-21	4.502e-21	9.454e-20	True	True	True
+compactness error	0.01631	0.02859	0.4546	1.168e-19	1.593e-19	3.504e-18	True	True	True
+mean smoothness	0.09076	0.1022	0.4441	7.793e-19	1.016e-18	2.338e-17	True	True	True
+mean symmetry	0.1714	0.1899	0.3971	2.268e-15	2.835e-15	6.804e-14	True	True	True
+worst fractal dimension	0.07712	0.0876	0.3719	1.144e-13	1.373e-13	3.433e-12	True	True	True
+fractal dimension error	0.002808	0.003739	0.2406	1.572e-06	1.814e-06	4.716e-05	True	True	True
+symmetry error	0.01909	0.0177	-0.1102	0.02784	0.03093	0.8351	True	True	False
+smoothness error	0.00653	0.006209	-0.06232	0.2136	0.2289	1	False	False	False
+mean fractal dimension	0.06154	0.06158	-0.03093	0.5372	0.5557	1	False	False	False
+texture error	1.108	1.103	0.02319	0.6437	0.6437	1	False	False	False

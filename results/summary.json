@@ -1,0 +1,21 @@
+{
+  "dataset": "Wisconsin Diagnostic Breast Cancer (UCI), via scikit-learn",
+  "n_malignant": 212,
+  "n_benign": 357,
+  "n_features_tested": 30,
+  "alpha": 0.05,
+  "test": "two-sided Mann-Whitney U",
+  "significant_uncorrected": 27,
+  "significant_BH_FDR5": 27,
+  "significant_bonferroni": 26,
+  "feature_pairs_with_abs_spearman_ge_0.9": 26,
+  "feature_pairs_total": 435,
+  "permutation_control": {
+    "n_permutations": 200,
+    "mean_uncorrected_false_positives_per_run": 1.615,
+    "runs_with_at_least_one_uncorrected_false_positive": 94,
+    "mean_BH_false_positives_per_run": 0.135,
+    "runs_with_at_least_one_BH_false_positive": 6
+  },
+  "random_seed": 1
+}
